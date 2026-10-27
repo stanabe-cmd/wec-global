@@ -5,3 +5,10 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# 本番公開前なので検索エンジンに載せない設定。
+# 本番ドメイン(global.wecnrt.co.jp 等)で公開するときに、この [[headers]] ブロックを削除する。
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

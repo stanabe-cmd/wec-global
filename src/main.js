@@ -20,34 +20,42 @@ document.querySelector('#app').innerHTML = `
     <div class="logo-section-container">
       <div class="logo-slider">
         <div class="logo-track row-1">
-          <img src="/logo-client-01.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-02.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-03.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-04.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-05.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-06.png" alt="Client Logo" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
           <!-- Duplicate for seamless scroll -->
-          <img src="/logo-client-01.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-02.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-03.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-04.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-05.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-06.png" alt="Client Logo" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
         </div>
         <div class="logo-track row-2">
-          <img src="/logo-client-06.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-05.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-04.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-03.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-02.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-01.svg" alt="Client Logo" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
           <!-- Duplicate for seamless scroll -->
-          <img src="/logo-client-06.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-05.svg" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-04.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-03.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-02.png" alt="Client Logo" class="logo-item">
-          <img src="/logo-client-01.svg" alt="Client Logo" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
         </div>
       </div>
     </div>
