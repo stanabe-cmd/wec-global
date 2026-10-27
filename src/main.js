@@ -96,7 +96,7 @@ document.querySelector('#app').innerHTML = `
         </svg>
       </div>
       
-      <h3 class="problem-solution-text"><span class="highlight-primary">WEC</span>なら解決できます！</h3>
+      <h3 class="problem-solution-text"><span class="highlight-primary">ワールドエンタプライズ（WEC）</span><br class="sp-only">なら解決できます！</h3>
     </div>
   </section>
 

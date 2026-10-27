@@ -2327,3 +2327,117 @@ details[open] summary::after {
     height: 220px;
   }
 }
+
+
+/* ===== 全体の余白バランス調整 ===== */
+.section-padding {
+  padding: 5.5rem 0;
+}
+
+.logos.section-padding {
+  padding: 0;
+}
+
+.logo-section-container {
+  padding: 40px 0 24px;
+}
+
+.logo-slider {
+  padding: 0.5rem 0;
+}
+
+.logo-track {
+  padding-bottom: 1rem;
+}
+
+.section-title {
+  margin-bottom: 3rem;
+}
+
+/* 課題セクション: カード→イラスト→矢印→解決の一文 を詰める */
+.problem.section-padding {
+  padding-bottom: 4.5rem;
+}
+
+.problem-grid {
+  margin-bottom: 2rem;
+}
+
+.problem-illustration-wrapper {
+  margin: 0 auto;
+  max-width: 260px;
+}
+
+.problem-arrow {
+  margin-top: 0.75rem;
+}
+
+.problem-arrow svg {
+  width: 36px;
+  height: 36px;
+}
+
+.problem-solution-text {
+  margin-top: 0.5rem;
+  font-size: 1.75rem;
+  line-height: 1.5;
+}
+
+.problem-solution-text .highlight-primary {
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+
+.sp-only {
+  display: none;
+}
+
+/* サービス内容: 課題との間を詰める */
+.services.section-padding {
+  padding-top: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 4rem 0;
+  }
+
+  .logos.section-padding {
+    padding: 0;
+  }
+
+  .logo-section-container {
+    padding: 24px 0 12px;
+  }
+
+  .problem-grid {
+    gap: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  .problem-card {
+    min-height: auto;
+    padding: 14px 16px;
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+  }
+
+  .problem-illustration-wrapper {
+    max-width: 200px;
+  }
+
+  .problem-solution-text {
+    font-size: 1.25rem;
+  }
+
+  .problem-solution-text .highlight-primary {
+    font-size: 1.6rem;
+  }
+
+  .sp-only {
+    display: inline;
+  }
+}
