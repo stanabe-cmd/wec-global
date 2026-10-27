@@ -2441,3 +2441,84 @@ details[open] summary::after {
     display: inline;
   }
 }
+
+
+/* ===== 中間CTA: 右に写真、左に文言とボタン ===== */
+.mid-cta {
+  padding: 5rem 0;
+}
+
+.mid-cta-photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58%;
+  height: 100%;
+  background: url('/cta-team.jpg') center 35% / cover no-repeat;
+  z-index: 0;
+}
+
+.mid-cta-photo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--primary) 0%, rgba(0, 64, 128, 0.55) 18%, rgba(0, 64, 128, 0) 42%);
+}
+
+.mid-cta .container {
+  position: relative;
+  z-index: 2;
+}
+
+.mid-cta-title {
+  max-width: 520px;
+  margin: 0 0 2rem;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.mid-cta-btns {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.mid-cta-btns .btn-lg {
+  min-width: 340px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .mid-cta {
+    padding: 0 0 3rem;
+  }
+
+  .mid-cta-photo {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background-position: center 30%;
+  }
+
+  .mid-cta-photo::before {
+    background: linear-gradient(180deg, rgba(0, 64, 128, 0) 55%, var(--primary) 100%);
+  }
+
+  .mid-cta .container {
+    padding-top: 1.5rem;
+  }
+
+  .mid-cta-title {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto 1.5rem;
+  }
+
+  .mid-cta-btns {
+    align-items: stretch;
+  }
+
+  .mid-cta-btns .btn-lg {
+    min-width: 0;
+  }
+}

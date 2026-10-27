@@ -319,8 +319,9 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="mid-cta">
-    <div class="container text-center">
-      <h2 class="mid-cta-title" style="color: white; margin-bottom: 2rem;">外国人採用の「失敗しない」ノウハウが、ここにはあります。</h2>
+    <div class="mid-cta-photo" role="img" aria-label="空港カウンターで働く外国人スタッフと日本人スタッフ"></div>
+    <div class="container">
+      <h2 class="mid-cta-title" style="color: white;">外国人採用の「失敗しない」<br>ノウハウが、ここにはあります。</h2>
       <div class="mid-cta-btns">
         <a href="/download.html" class="btn btn-secondary btn-lg">無料で総合資料を請求する</a>
         <a href="#contact" class="btn btn-white-outline btn-lg">無料で相談・お問い合わせ</a>
