@@ -295,7 +295,7 @@ document.querySelector('#app').innerHTML = `
 
         <div class="case-card">
           <div class="case-img-wrapper">
-            <div class="case-img-placeholder"><span>写真準備中</span></div>
+            <img src="/case_arch_1.jpg" alt="食品加工の調理・盛り付けの現場" class="case-img">
           </div>
           <div class="case-body">
             <div class="case-profile">
