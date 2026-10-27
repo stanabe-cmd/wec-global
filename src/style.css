@@ -2268,3 +2268,62 @@ details[open] summary::after {
     top: 30px;
   }
 }
+
+/* ===== 全体の淡い空の背景(流れのセクションと統一) ===== */
+.problem,
+.services,
+.cases,
+.faq,
+.contact {
+  position: relative;
+  overflow: hidden;
+}
+
+.problem,
+.cases,
+.contact {
+  background: url('/sky-bg-top.jpg') center top / cover no-repeat;
+}
+
+.services,
+.faq {
+  background: url('/flow-bg.jpg') center bottom / cover no-repeat;
+}
+
+/* エンブレムの透かし(左右交互) */
+.services::before,
+.faq::before {
+  content: '';
+  position: absolute;
+  width: 480px;
+  height: 400px;
+  top: 40px;
+  background: url('/wec-emblem.png') center / contain no-repeat;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.services::before {
+  left: -90px;
+}
+
+.faq::before {
+  right: -90px;
+}
+
+.problem > .container,
+.services > .container,
+.cases > .container,
+.faq > .container,
+.contact > .container {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .services::before,
+  .faq::before {
+    width: 260px;
+    height: 220px;
+  }
+}
