@@ -2194,3 +2194,9 @@ details[open] summary::after {
 .iv-promo .btn {
   margin-top: 8px;
 }
+
+.stats-note {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 12px;
+}

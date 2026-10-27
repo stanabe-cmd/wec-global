@@ -73,7 +73,7 @@ if (downloadForm) {
 
             if (response.ok) {
                 // Redirect to thanks page
-                window.location.href = '/thanks.html';
+                window.location.href = '/thanks.html?type=download';
             } else {
                 const data = await response.json();
                 if (data.errors) {

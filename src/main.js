@@ -7,10 +7,10 @@ document.querySelector('#app').innerHTML = `
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <h1>特定技能人材の紹介から<br><span class="highlight">生活サポートまで一気通貫。</span></h1>
-        <p>自社、1500名のノウハウを、貴社の力に。<br>WECは、現場を知るからこそできる質の高い採用支援を提供します。</p>
+        <p>外国人材500名の支援実績を、貴社の力に。<br>WECは、現場を知るからこそできる質の高い採用支援を提供します。</p>
         <div class="hero-btns">
           <a href="#contact" class="btn btn-primary">無料で相談する</a>
-          <a href="/download.html" class="btn btn-secondary">資料ダウンロード</a>
+          <a href="/download.html" class="btn btn-secondary">資料請求(無料)</a>
         </div>
       </div>
     </div>
@@ -197,8 +197,9 @@ document.querySelector('#app').innerHTML = `
     <div class="container strength-content">
       <div class="strength-text">
         <h2 class="section-title" data-en="STRENGTHS" style="text-align: left;">WECだからこその強み</h2>
-        <p>私たちは単なる「紹介会社」ではありません。<br>自社グループ内で<span class="strength-num">1,500名</span>近い外国人を実際に採用し、現場を運営しています。</p>
+        <p>私たちは単なる「紹介会社」ではありません。<br>自社グループの現場でも多くの外国人材が働いており、採用から受け入れ・定着までを自ら運営しています。</p>
         <p>・現場で起こるリアルな課題と解決策を熟知<br>・定着率を高めるためのノウハウが凝縮<br>・実体験に基づいた、嘘のないサポート体制</p>
+        <p class="stats-note">※数値は2026年10月末日現在。外国人材支援人数は特定技能・技能実習を含みます。定着実績は社内定義に基づきます。</p>
       </div>
       <div class="strength-visual">
         <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800" alt="働く外国人スタッフ" class="strength-main-img">
@@ -208,16 +209,16 @@ document.querySelector('#app').innerHTML = `
         <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ5" class="strength-sub-img sub-img-4">
         <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ6" class="strength-sub-img sub-img-5">
         <div class="stats-card card-1">
-          <span class="stats-label">総雇用実績</span>
-          <span class="stats-value">1,500<span>名+</span></span>
+          <span class="stats-label">外国人材支援人数</span>
+          <span class="stats-value">500<span>名</span></span>
         </div>
         <div class="stats-card card-2">
-          <span class="stats-label">入社後定着率</span>
-          <span class="stats-value">92<span>%</span></span>
+          <span class="stats-label">定着実績</span>
+          <span class="stats-value">98<span>%</span></span>
         </div>
         <div class="stats-card card-3">
-          <span class="stats-label">提携機関数</span>
-          <span class="stats-value">50<span>社+</span></span>
+          <span class="stats-label">受け入れ企業数</span>
+          <span class="stats-value">11<span>社</span></span>
         </div>
       </div>
     </div>
@@ -321,7 +322,7 @@ document.querySelector('#app').innerHTML = `
     <div class="container text-center">
       <h2 class="mid-cta-title" style="color: white; margin-bottom: 2rem;">外国人採用の「失敗しない」ノウハウが、ここにはあります。</h2>
       <div class="mid-cta-btns">
-        <a href="/download.html" class="btn btn-secondary btn-lg">無料で事例集をダウンロード</a>
+        <a href="/download.html" class="btn btn-secondary btn-lg">無料で総合資料を請求する</a>
         <a href="#contact" class="btn btn-white-outline btn-lg">無料で相談・お問い合わせ</a>
       </div>
     </div>
@@ -508,15 +509,15 @@ document.querySelector('#app').innerHTML = `
   <aside class="side-cta" id="side-cta">
     <div class="side-cta-inner">
       <button class="side-cta-close" id="side-cta-close" aria-label="閉じる">&times;</button>
-      <img src="/cta-banner.jpg" alt="成功事例集" class="side-cta-banner">
-      <p>【無料】<br>外国人採用の「失敗しない」<br>成功事例集をお届け</p>
-      <a href="/download.html" class="btn btn-secondary btn-sm">資料ダウンロード</a>
+      <img src="/cta-banner.jpg" alt="WEC総合資料" class="side-cta-banner">
+      <p>【無料】<br>採用から受け入れ・定着まで<br>WECの総合資料をお送りします</p>
+      <a href="/download.html" class="btn btn-secondary btn-sm">資料請求</a>
     </div>
   </aside>
 
   <!-- Mobile Bottom CTA -->
   <div class="mobile-bottom-cta" id="mobile-bottom-cta">
-    <a href="/download.html" class="btn btn-primary mobile-cta-btn">無料の事例集をダウンロード</a>
+    <a href="/download.html" class="btn btn-primary mobile-cta-btn">無料で総合資料を請求する</a>
   </div>
 `
 
