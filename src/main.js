@@ -221,7 +221,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Case 1: Ground Handling -->
         <div class="case-card">
           <div class="case-img-wrapper">
-            <img src="/case_study_airport_manager2.jpg" alt="空港グランドハンドリングで働く外国人スタッフ" class="case-img">
+            <img src="/case_aks_1.jpg" alt="AKSグランドハンドリング株式会社様" class="case-img">
           </div>
           <div class="case-body">
             <div class="case-profile">
