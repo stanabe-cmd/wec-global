@@ -216,9 +216,8 @@ document.querySelector('#app').innerHTML = `
   </section>
   <section class="cases section-padding" id="cases">
     <div class="container">
-      <h2 class="section-title" data-en="CASES">導入事例・実績紹介</h2>
-      <div class="cases-grid">
-        <!-- Case 1: Ground Handling -->
+      <h2 class="section-title" data-en="CASES">導入企業インタビュー</h2>
+      <div class="cases-grid cases-grid-4">
         <div class="case-card">
           <div class="case-img-wrapper">
             <img src="/case_aks_1.jpg" alt="AKSグランドハンドリング株式会社様" class="case-img">
@@ -226,7 +225,7 @@ document.querySelector('#app').innerHTML = `
           <div class="case-body">
             <div class="case-profile">
               <div class="case-company-logo">
-                <img src="/logo-client-01.svg" alt="Company Logo" class="case-logo">
+                <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社 ロゴ" class="case-logo">
               </div>
               <div class="case-company-info">
                 <p class="case-company-name">AKSグランドハンドリング株式会社様</p>
@@ -236,20 +235,41 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </div>
-            <h3 class="case-title">採用後もすぐ辞めてしまう離職率の高さが課題。生活サポートの充実と入社前研修で、1年後の定着率が92%に改善。</h3>
-            <a href="/case-study-airport.html" class="btn btn-outline">詳しくみる <span class="arrow">→</span></a>
+            <h3 class="case-title">自ら質問し、次の工程を考えて動く。グランドハンドリングの現場で特定技能人材が成長するまで</h3>
+            <a href="/case-study-airport.html" class="btn btn-outline">インタビューを読む <span class="arrow">→</span></a>
           </div>
         </div>
 
-        <!-- Case 2: Food Factory -->
         <div class="case-card">
           <div class="case-img-wrapper">
-            <img src="/case_study_food_manager.jpg" alt="食品工場で働く外国人スタッフ" class="case-img">
+            <img src="/case_snk_1.jpg" alt="株式会社サンエアカーゴサービス様" class="case-img">
           </div>
           <div class="case-body">
             <div class="case-profile">
               <div class="case-company-logo">
-                <img src="/logo-client-03.png" alt="Company Logo" class="case-logo">
+                <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス ロゴ" class="case-logo">
+              </div>
+              <div class="case-company-info">
+                <p class="case-company-name">株式会社サンエアカーゴサービス様</p>
+                <div class="case-tags">
+                  <span class="case-tag">空港貨物</span>
+                  <span class="case-tag">特定技能：空港グランドハンドリング</span>
+                </div>
+              </div>
+            </div>
+            <h3 class="case-title">採用して終わりではない。外国人材が安心して働き続けるための支援とは</h3>
+            <a href="/case-study-suncargo.html" class="btn btn-outline">インタビューを読む <span class="arrow">→</span></a>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-img-wrapper">
+            <img src="/case_filed_1.jpg" alt="株式会社フィルド食品様" class="case-img">
+          </div>
+          <div class="case-body">
+            <div class="case-profile">
+              <div class="case-company-logo">
+                <img src="/logo-client-03.png" alt="株式会社フィルド食品 ロゴ" class="case-logo">
               </div>
               <div class="case-company-info">
                 <p class="case-company-name">株式会社フィルド食品様</p>
@@ -259,31 +279,30 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </div>
-            <h3 class="case-title">現場の安全基準や衛生ルールの徹底に課題。言語サポートと事前研修で製造ラインの安定稼働を実現。</h3>
-            <a href="/case-study-food.html" class="btn btn-outline">詳しくみる <span class="arrow">→</span></a>
+            <h3 class="case-title">実際に働く姿を見て変わった、外国人材への印象。食品製造の現場で続けてきた外国人材の受け入れ</h3>
+            <a href="/case-study-food.html" class="btn btn-outline">インタビューを読む <span class="arrow">→</span></a>
           </div>
         </div>
 
-        <!-- Case 3: Cleaning/Maintenance -->
         <div class="case-card">
           <div class="case-img-wrapper">
-            <img src="/case_study_building_manager2.jpg" alt="ビル清掃・メンテナンスで働く外国人スタッフ" class="case-img">
+            <div class="case-img-placeholder"><span>写真準備中</span></div>
           </div>
           <div class="case-body">
             <div class="case-profile">
               <div class="case-company-logo">
-                <img src="/logo-client-04.png" alt="Company Logo" class="case-logo">
+                <img src="/logo-client-06.png" alt="株式会社アーチ ロゴ" class="case-logo">
               </div>
               <div class="case-company-info">
-                <p class="case-company-name">新生ビルテクノ株式会社様</p>
+                <p class="case-company-name">株式会社アーチ様</p>
                 <div class="case-tags">
-                  <span class="case-tag">ビル管理</span>
-                  <span class="case-tag">特定技能：ビルクリーニング</span>
+                  <span class="case-tag">食品加工</span>
+                  <span class="case-tag">特定技能：飲食料品製造業</span>
                 </div>
               </div>
             </div>
-            <h3 class="case-title">熟練工の高齢化と若手不足。特定技能人材の採用により、現場の若返りと安定した施工品質の維持を実現。</h3>
-            <a href="/case-study-building.html" class="btn btn-outline">詳しくみる <span class="arrow">→</span></a>
+            <h3 class="case-title">1時間半の作業が1時間未満に。食品加工の現場で外国人材が戦力になるまで</h3>
+            <a href="/case-study-arch.html" class="btn btn-outline">インタビューを読む <span class="arrow">→</span></a>
           </div>
         </div>
       </div>

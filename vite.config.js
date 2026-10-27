@@ -5,8 +5,9 @@ import { resolve } from 'path';
 const pages = {
     main: 'index.html',
     caseStudyAirport: 'case-study-airport.html',
+    caseStudySuncargo: 'case-study-suncargo.html',
     caseStudyFood: 'case-study-food.html',
-    caseStudyBuilding: 'case-study-building.html',
+    caseStudyArch: 'case-study-arch.html',
     download: 'download.html',
     thanks: 'thanks.html',
 };
