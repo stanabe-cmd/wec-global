@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17BVVQ814J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-17BVVQ814J');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>送信完了｜WEC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+        :root {
+            --primary: #004aad;
+            --primary-dark: #003380;
+            --accent: #ffd700;
+            --bg-deep: #0a1e3c;
+            --text-main: #333;
+            --glass: rgba(255, 255, 255, 0.95);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', 'Outfit', sans-serif;
+            background: radial-gradient(circle at top right, #f0f7ff 0%, #ffffff 100%);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background Elements */
+        .bg-blob {
+            position: fixed;
+            z-index: -1;
+            filter: blur(80px);
+            opacity: 0.4;
+            border-radius: 50%;
+            animation: move 20s infinite alternate;
+        }
+
+        .blob-1 {
+            width: 400px;
+            height: 400px;
+            background: #004aad;
+            top: -100px;
+            right: -100px;
+        }
+
+        .blob-2 {
+            width: 300px;
+            height: 300px;
+            background: #4ca1af;
+            bottom: -50px;
+            left: -50px;
+            animation-delay: -5s;
+        }
+
+        @keyframes move {
+            from {
+                transform: translate(0, 0) scale(1);
+            }
+
+            to {
+                transform: translate(50px, 50px) scale(1.1);
+            }
+        }
+
+        .header {
+            background: rgba(10, 30, 60, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header .logo {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header .logo a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 48px;
+            width: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .thanks-card {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            max-width: 650px;
+            width: 100%;
+            padding: 80px 40px;
+            border-radius: 32px;
+            box-shadow: 0 25px 50px rgba(0, 74, 173, 0.15);
+            text-align: center;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 1);
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .icon-wrapper {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: white;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 40px;
+            transform: rotate(-5deg);
+            box-shadow: 0 15px 30px rgba(76, 175, 80, 0.3);
+            animation: popIcon 1s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        @keyframes popIcon {
+            0% {
+                transform: scale(0) rotate(-20deg);
+            }
+
+            100% {
+                transform: scale(1) rotate(-5deg);
+            }
+        }
+
+        .icon-wrapper svg {
+            width: 50px;
+            height: 50px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--bg-deep);
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            line-height: 2;
+            margin-bottom: 48px;
+            color: #555;
+        }
+
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            text-decoration: none;
+            padding: 18px 48px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 74, 173, 0.3);
+        }
+
+        .btn-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 74, 173, 0.4);
+            filter: brightness(1.1);
+        }
+
+        .btn-home svg {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-home:hover svg {
+            transform: translateX(-5px);
+        }
+
+        footer {
+            padding: 40px 0;
+            background: var(--bg-deep);
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 480px) {
+            .thanks-card {
+                padding: 60px 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .message {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <header class="header">
+        <div class="logo"><a href="/"><img src="/wec-logo2.png" alt="WEC" class="logo-img"></a></div>
+    </header>
+
+    <main>
+        <div class="thanks-card">
+            <div class="icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+            </div>
+            <h1>送信が完了しました</h1>
+            <div class="message">
+                この度は WEC へお問い合わせいただき、<br>
+                誠にありがとうございます。<br><br>
+                ご入力いただいた内容は、担当者が確認のうえ、<br>
+                通常2営業日以内に折り返しご連絡させていただきます。<br>
+                メールが届かない場合は、迷惑メールフォルダをご確認ください。
+            </div>
+            <a href="/" class="btn-home">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                トップページへ戻る
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 World Enterprise Co., Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
