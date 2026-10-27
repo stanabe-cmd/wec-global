@@ -3,7 +3,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <section class="hero" id="hero">
     <div class="hero-visual-card">
-      <img src="/hero-main.jpg" alt="WEC" class="hero-bg-img">
+      <img src="/hero-main.jpg" alt="空港貨物の現場で働くスタッフ" class="hero-bg-img">
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <h1>特定技能人材の紹介から<br><span class="highlight">生活サポートまで一気通貫。</span></h1>
@@ -203,7 +203,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="strength-visual">
         <img src="/strength-main.jpg" alt="空港で働くWECのスタッフ" class="strength-main-img">
-        <img src="/strength-1.jpg" alt="空港貨物の現場で働くスタッフ" class="strength-sub-img sub-img-1">
+        <img src="/strength-1.jpg" alt="デスクで業務にあたるスタッフ" class="strength-sub-img sub-img-1">
         <img src="/strength-2.jpg" alt="航空機を誘導するスタッフ" class="strength-sub-img sub-img-2">
         <img src="/strength-3.jpg" alt="車両を運転する空港スタッフ" class="strength-sub-img sub-img-3">
         <img src="/strength-4.jpg" alt="空港リムジンバスのスタッフ" class="strength-sub-img sub-img-4">
