@@ -1,0 +1,7 @@
+# Netlify の公開設定(ここに書いた内容が Netlify 側の設定より優先される)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
