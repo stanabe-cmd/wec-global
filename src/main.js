@@ -203,7 +203,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="strength-visual">
         <img src="/strength-main.jpg" alt="空港で働くWECのスタッフ" class="strength-main-img">
-        <img src="/strength-1.jpg" alt="デスクで業務にあたるスタッフ" class="strength-sub-img sub-img-1">
+        <img src="/strength-1.jpg" alt="食品工場で働く外国人スタッフ" class="strength-sub-img sub-img-1">
         <img src="/strength-2.jpg" alt="航空機を誘導するスタッフ" class="strength-sub-img sub-img-2">
         <img src="/strength-3.jpg" alt="車両を運転する空港スタッフ" class="strength-sub-img sub-img-3">
         <img src="/strength-4.jpg" alt="空港リムジンバスのスタッフ" class="strength-sub-img sub-img-4">
