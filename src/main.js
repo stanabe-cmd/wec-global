@@ -510,7 +510,7 @@ document.querySelector('#app').innerHTML = `
     <div class="side-cta-inner">
       <button class="side-cta-close" id="side-cta-close" aria-label="閉じる">&times;</button>
       <img src="/cta-banner.jpg" alt="WEC総合資料" class="side-cta-banner">
-      <p>【無料】<br>特定技能の“使い方”が<br>わかる資料をお送りします</p>
+      <p>【無料】<br>特定技能人材の採用・定着が<br>わかる資料をお送りします</p>
       <a href="/download.html" class="btn btn-secondary btn-sm">資料請求</a>
     </div>
   </aside>

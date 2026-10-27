@@ -1514,7 +1514,7 @@ details[open] summary::after {
 .dl-main-image {
   width: 100%;
   box-shadow: var(--shadow-md);
-  aspect-ratio: 16/9;
+  aspect-ratio: 3/2;
   object-fit: cover;
   display: block;
 }
