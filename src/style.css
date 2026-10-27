@@ -587,7 +587,7 @@ img.logo-item:hover {
   object-fit: cover;
   border-radius: 24px;
   /* Changed from 50% to rounded rectangle */
-  filter: brightness(0.6) grayscale(10%);
+  filter: brightness(0.85);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   z-index: 1;
@@ -2209,4 +2209,37 @@ details[open] summary::after {
 
 .benefits-list li strong {
   color: var(--primary);
+}
+
+
+/* ===== ヒーロー: 写真の人物を右、文字を左に ===== */
+.hero-bg-img {
+  object-position: 100% 30%;
+}
+
+@media (min-width: 900px) {
+  .hero-overlay {
+    background: linear-gradient(90deg, rgba(10, 30, 60, 0.85) 0%, rgba(10, 30, 60, 0.6) 45%, rgba(10, 30, 60, 0.05) 75%);
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 4%;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 3.6vw, 3rem);
+  }
+
+  .hero-content h1,
+  .hero-content p {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 899px) {
+  .hero-bg-img {
+    object-position: 82% 30%;
+  }
 }

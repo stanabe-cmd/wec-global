@@ -202,12 +202,12 @@ document.querySelector('#app').innerHTML = `
         <p class="stats-note">※数値は2026年10月末日現在。外国人材支援人数は特定技能・技能実習を含みます。定着実績は社内定義に基づきます。</p>
       </div>
       <div class="strength-visual">
-        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=800" alt="働く外国人スタッフ" class="strength-main-img">
-        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ2" class="strength-sub-img sub-img-1">
-        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ3" class="strength-sub-img sub-img-2">
-        <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ4" class="strength-sub-img sub-img-3">
-        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ5" class="strength-sub-img sub-img-4">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=400" alt="働くスタッフ6" class="strength-sub-img sub-img-5">
+        <img src="/strength-main.jpg" alt="空港で働くWECのスタッフ" class="strength-main-img">
+        <img src="/strength-1.jpg" alt="空港貨物の現場で働くスタッフ" class="strength-sub-img sub-img-1">
+        <img src="/strength-2.jpg" alt="航空機を誘導するスタッフ" class="strength-sub-img sub-img-2">
+        <img src="/strength-3.jpg" alt="車両を運転する空港スタッフ" class="strength-sub-img sub-img-3">
+        <img src="/strength-4.jpg" alt="空港リムジンバスのスタッフ" class="strength-sub-img sub-img-4">
+        <img src="/strength-5.jpg" alt="電話対応をするスタッフ" class="strength-sub-img sub-img-5">
         <div class="stats-card card-1">
           <span class="stats-label">外国人材支援人数</span>
           <span class="stats-value">500<span>名</span></span>
