@@ -269,6 +269,31 @@ document.querySelector('#app').innerHTML = `
           <div class="net-point"><span class="net-point-check">✓</span><div><strong>国ごとの採用ルート確保</strong><span>現地の特性に応じた採用ルートを構築</span></div></div>
           <div class="net-point"><span class="net-point-check">✓</span><div><strong>複数国からのご提案が可能</strong><span>企業のニーズに合わせ最適な人材をご提案</span></div></div>
       </div>
+      <div class="group-link">
+        <p class="net-eyebrow">GROUP NETWORK</p>
+        <h3>代表 諸岡勇人のもと、<br class="sp-only">3つの組織が連携</h3>
+        <p class="group-lead">ワールドエンタプライズ、スリランカ現地法人のSAKURA LANKA JAPAN、監理団体のSGP協同組合は、いずれも代表を諸岡勇人が務めています。<br class="pc-only">現地での募集・教育から来日後の受け入れ・定着まで、組織をまたいだ情報共有と調整がスムーズに行えます。</p>
+        <div class="group-orgs">
+          <div class="group-org">
+            <div class="group-logo"><img src="/wec-logo2.png" alt="ワールドエンタプライズ株式会社(WEC)"></div>
+            <p class="group-role">日本 ｜ 人材紹介・登録支援機関</p>
+            <h4>ワールドエンタプライズ株式会社</h4>
+            <p>特定技能人材の紹介、来日後の生活支援・各種手続き、入社後の定着支援</p>
+          </div>
+          <div class="group-org">
+            <div class="group-logo"><img src="/logo-slj.png" alt="SAKURA LANKA JAPAN FOREIGN EMPLOYMENT (PVT) LTD"></div>
+            <p class="group-role"><img src="/flag-lk.png" alt="" class="group-flag">スリランカ ｜ 現地法人</p>
+            <h4>SAKURA LANKA JAPAN</h4>
+            <p>現地での人材募集・選考、日本語・職種教育、来日前の準備</p>
+          </div>
+          <div class="group-org">
+            <div class="group-logo"><img src="/logo-sgp.png" alt="SGP協同組合(サクラグローバルパートナー協同組合)"></div>
+            <p class="group-role">日本 ｜ 監理団体</p>
+            <h4>SGP協同組合</h4>
+            <p>2027年4月に始まる育成就労制度（現行の技能実習制度）での受け入れに対応</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="cases section-padding" id="cases">
