@@ -3014,3 +3014,140 @@ details[open] summary::after {
     font-size: 0.6em;
   }
 }
+
+/* ===== 海外ネットワーク: 国旗・写真・背景ロゴ ===== */
+.strength {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 暗い背景にWECエンブレムを大きく透かす */
+.strength::before {
+  content: '';
+  position: absolute;
+  width: 760px;
+  height: 640px;
+  right: -180px;
+  top: -60px;
+  background: url('/wec-emblem.png') center / contain no-repeat;
+  filter: brightness(0) invert(1);
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.strength::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  left: -200px;
+  bottom: -80px;
+  background: url('/wec-emblem.png') center / contain no-repeat;
+  filter: brightness(0) invert(1);
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+.strength > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.net-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 2.2rem;
+}
+
+.net-intro .net-head {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.net-intro .net-lead {
+  line-height: 1.9;
+}
+
+.net-photo {
+  margin: 0;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.net-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.net-photo figcaption {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(10, 20, 40, 0.75);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.net-photo figcaption img {
+  width: 22px;
+  height: auto;
+  aspect-ratio: auto;
+}
+
+.net-flag {
+  width: 40px;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+}
+
+@media (max-width: 900px) {
+  .net-intro {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .net-intro .net-head {
+    text-align: center;
+  }
+
+  .strength::before {
+    width: 420px;
+    height: 360px;
+    right: -160px;
+  }
+}
+
+@media (max-width: 900px) {
+  .net-photo img {
+    aspect-ratio: 4 / 3;
+    object-position: center 30%;
+  }
+
+  .net-photo figcaption {
+    position: static;
+    border-radius: 0;
+    width: 100%;
+    justify-content: center;
+    font-size: 0.75rem;
+    background: rgba(10, 20, 40, 0.9);
+  }
+
+  .net-photo figcaption img {
+    aspect-ratio: auto;
+  }
+}

@@ -223,15 +223,21 @@ document.querySelector('#app').innerHTML = `
       </div>
     </div>
     <div class="container strength-network">
-      <div class="net-head">
-        <p class="net-eyebrow">OVERSEAS NETWORK</p>
-        <h3>アジアを中心とした海外ネットワークで、<br class="pc-only">優秀な外国人材を日本へ</h3>
-        <p class="net-lead">現地の信頼できるパートナーと連携し、多様な人材の確保を支援しています。</p>
+      <div class="net-intro">
+        <div class="net-head">
+          <p class="net-eyebrow">OVERSEAS NETWORK</p>
+          <h3>アジアを中心とした<br>海外ネットワークで、<br>優秀な外国人材を日本へ</h3>
+          <p class="net-lead">現地の信頼できるパートナーと連携し、多様な人材の確保を支援しています。スリランカには現地法人を構え、採用から日本語教育まで一貫して行っています。</p>
+        </div>
+        <figure class="net-photo">
+          <img src="/net-slj.jpg" alt="スリランカの現地法人 SAKURA LANKA JAPAN でのWECメンバーと現地スタッフ" loading="lazy">
+          <figcaption><img src="/flag-lk.png" alt="" width="22" height="16"> スリランカ現地法人 SAKURA LANKA JAPAN</figcaption>
+        </figure>
       </div>
       <div class="net-cards">
           <div class="net-card net-card-main">
             <div class="net-card-head">
-              <span class="net-code">LK</span>
+              <img src="/flag-lk.png" alt="" class="net-flag" width="40" height="30">
               <h4>スリランカ</h4>
               <span class="net-tag">現地法人あり</span>
             </div>
@@ -240,7 +246,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="net-card">
             <div class="net-card-head">
-              <span class="net-code">ID</span>
+              <img src="/flag-id.png" alt="" class="net-flag" width="40" height="30">
               <h4>インドネシア</h4>
               <span class="net-tag">現地ネットワーク</span>
             </div>
@@ -249,7 +255,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="net-card">
             <div class="net-card-head">
-              <span class="net-code">NP</span>
+              <img src="/flag-np.png" alt="" class="net-flag" width="40" height="30">
               <h4>ネパール</h4>
               <span class="net-tag">現地ネットワーク</span>
             </div>
