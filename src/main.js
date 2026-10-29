@@ -158,7 +158,7 @@ document.querySelector('#app').innerHTML = `
             </svg>
           </div>
           <h3>ビザ手続きサポート</h3>
-          <p>複雑な在留資格の申請業務を専門家と連携し代行します。</p>
+          <p>複雑な在留資格の申請業務を専門家と連携しサポートします。</p>
         </div>
         <div class="service-card">
           <div class="service-icon">
@@ -332,78 +332,78 @@ document.querySelector('#app').innerHTML = `
   <section class="flow section-padding" id="flow">
     <div class="container">
       <h2 class="section-title" data-en="FLOW">受け入れまでの流れ</h2>
-      <div class="vertical-flow">
-        
-        <div class="v-flow-item">
-          <div class="v-flow-main">
-            <div class="v-step-num">1</div>
-            <div class="v-step-title">商談</div>
-          </div>
-          <div class="v-flow-arrow"></div>
-          <div class="v-flow-detail">
-            <h3>丁寧なヒアリングを行い、不安を解消するため何度も話し合いを重ねてミスマッチングを防ぎます。</h3>
-          </div>
+      <div class="flow-phases">
+        <div class="flow-phase flow-phase-abroad">
+          <div class="flow-phase-label"><span class="flow-phase-tag">STEP 1</span>海外</div>
+          <ol class="flow-steps">
+          <li class="flow-step">
+            <div class="flow-step-num"><span>01</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><h3>人材募集・人材育成<span class="flow-step-sub">(送り出し機関)</span></h3></div>
+              <p class="flow-step-desc">送り出し機関に求人を出し、各職種の試験に合格している人材を募集</p>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>02</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><h3>選考・面接</h3></div>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>03</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span><h3>日本語・職種教育</h3></div>
+              <p class="flow-step-desc">日本語や就業する職種に必要な知識・技能を教育</p>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>04</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><h3>来日前研修<span class="flow-step-sub">(事前ガイダンス)</span></h3></div>
+              <p class="flow-step-desc">日本での生活・仕事に必要なルールやマナーなどを事前に説明</p>
+            </div>
+          </li>
+          </ol>
         </div>
 
-        <div class="v-flow-item">
-          <div class="v-flow-main">
-            <div class="v-step-num">2</div>
-            <div class="v-step-title">人材選考・オンライン面談 <span class="v-duration">約1ヶ月</span></div>
-          </div>
-          <div class="v-flow-arrow"></div>
-          <div class="v-flow-detail">
-            <h3>面接前に候補者と念入りな面談を行い、お客様のニーズに合致するか事前に細かくチェックいたします。</h3>
-          </div>
+        <div class="flow-flight" aria-label="フライト">
+          <div class="flow-flight-line"></div>
+          <div class="flow-flight-icon"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></div>
+          <div class="flow-flight-label">フライト</div>
+          <div class="flow-flight-line"></div>
         </div>
 
-        <div class="v-flow-item">
-          <div class="v-flow-main">
-            <div class="v-step-num">3</div>
-            <div class="v-step-title">在留資格申請書類準備＆申請 <span class="v-duration">約4ヶ月</span></div>
-          </div>
-          <div class="v-flow-arrow"></div>
-          <div class="v-flow-detail">
-            <h3>事前ガイダンスや交流会を通じて、入国前から生活に必要な支援やサポートを徹底して行います。</h3>
-            <ul class="v-sub-list">
-              <li>1. 事前ガイダンス</li>
-              <li>2. 生活に必要な支援サポート</li>
-            </ul>
-          </div>
+        <div class="flow-phase flow-phase-japan">
+          <div class="flow-phase-label"><span class="flow-phase-tag">STEP 2</span>日本</div>
+          <ol class="flow-steps">
+          <li class="flow-step">
+            <div class="flow-step-num"><span>05</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span><h3>来日・受け入れ</h3></div>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>06</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l2 2 4-4"/></svg></span><h3>生活支援・各種行政手続き</h3></div>
+              <p class="flow-step-desc">住居、ライフライン、銀行口座、携帯電話、公的手続きなどをサポート</p>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>07</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span><h3>入社</h3></div>
+            </div>
+          </li>
+          <li class="flow-step">
+            <div class="flow-step-num"><span>08</span></div>
+            <div class="flow-step-body">
+              <div class="flow-step-head"><span class="flow-step-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.2l7.8-7.7 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></span><h3>定着支援</h3></div>
+              <p class="flow-step-desc">入社後の相談対応や定期的なフォローを実施</p>
+            </div>
+          </li>
+          </ol>
         </div>
-
-        <div class="v-flow-item">
-          <div class="v-flow-main">
-            <div class="v-step-num">4</div>
-            <div class="v-step-title">ビザ申請・渡航調整・入国</div>
-          </div>
-          <div class="v-flow-arrow"></div>
-          <div class="v-flow-detail">
-            <h3>入国後の移送や公的手続きへの同行、生活オリエンテーションなど、入国直後の不安を全面的にサポートします。</h3>
-            <ul class="v-sub-list">
-              <li>3. 生活オリエンテーション</li>
-              <li>4. 入国に関する移送</li>
-              <li>5. 公的手続きへの同行</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="v-flow-item">
-          <div class="v-flow-main">
-            <div class="v-step-num">5</div>
-            <div class="v-step-title">入社</div>
-          </div>
-          <div class="v-flow-arrow"></div>
-          <div class="v-flow-detail">
-            <h3>住宅斡旋から定期面談、日本人との交流促進まで、長期的に安心して働ける環境作りを伴走支援します。</h3>
-            <ul class="v-sub-list">
-              <li>6. 住宅斡旋</li>
-              <li>7. 定期的な面談</li>
-              <li>8. 各種講習機会の提供</li>
-              <li>9. 日本人と交流促進</li>
-            </ul>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -413,58 +413,40 @@ document.querySelector('#app').innerHTML = `
       <h2 class="section-title" data-en="FAQ">よくあるご質問</h2>
       <div class="faq-list">
         <details>
-          <summary>Q1. 特定技能と技能実習は何が違うのですか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 特定技能は“即戦力として働く在留資格”です。</strong><br>
-            技能実習は「技能移転」が目的ですが、特定技能は人手不足解消のための制度です。<br>
-            試験に合格した人材のみが対象となるため、一定のスキル・日本語能力を有しています。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">どの国の人材を採用できますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>スリランカ、インドネシア、ネパールを中心に、海外の現地ネットワークを活用して人材をご紹介しています。<br>今後も対応国を順次拡大していきます。</p></div>
         </details>
         <details>
-          <summary>Q2. 日本語レベルはどのくらいですか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 原則、日本語能力試験N4以上（または同等試験合格者）です。</strong><br>
-            日常会話レベルの理解があり、業務指示の理解が可能です。<br>
-            当社では事前研修により、業種特化の用語教育も行っています。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">どのような人材を紹介できますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>特定技能外国人・技能実習生に対応しています。<br>企業の業種・仕事内容・採用条件に合わせて、必要な人材を募集・選考します。</p></div>
         </details>
         <details>
-          <summary>Q3. ビザ手続きや行政対応は自社で行う必要がありますか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. いいえ、当社がワンストップでサポートします。</strong><br>
-            在留資格申請、必要書類の案内、更新サポートまで対応。<br>
-            企業様の負担を最小限に抑えます。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">日本語はどのくらい話せますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>N5～N2の人材がいます。人材によって異なりますが、来日前から日本語教育を行っています。特定技能については、必要な日本語能力などの条件を満たした人材をご紹介します。</p></div>
         </details>
         <details>
-          <summary>Q4. どのくらいの期間で入社できますか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 国内在住者であれば最短1〜2ヶ月程度です。</strong><br>
-            海外からの呼び寄せの場合は、3〜5ヶ月程度が目安です。<br>
-            ※状況により変動します。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">採用までどのくらいかかりますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>在留カードの申請や受け入れ先の申請などもあり最短で3か月、長くて9か月ほどになります。</p></div>
         </details>
         <details>
-          <summary>Q5. 途中で退職してしまうことはありますか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 可能性はゼロではありませんが、定着率向上の仕組みがあります。</strong><br>
-            事前マッチング面談、業務説明の徹底、入社後フォローを実施。<br>
-            安易な紹介は行いません。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">外国人材の採用が初めてでも大丈夫ですか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>はい。採用だけでなく、各種手続き、来日準備、住居・生活支援、入社後のフォローまで一貫してサポートします。</p></div>
         </details>
         <details>
-          <summary>Q6. 費用はどのくらいかかりますか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 成功報酬型です。採用決定までは費用はかかりません。</strong><br>
-            詳細は職種や条件により異なりますが、明確な料金体系をご提示いたします。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">住居や生活の準備はどうすればいいですか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>住居の確保から、電気・水道などの生活インフラ、銀行口座、携帯電話、公的手続きなど、来日後の生活立ち上げをサポートします。</p></div>
         </details>
         <details>
-          <summary>Q7. 受け入れにあたって企業側が準備することは何ですか？</summary>
-          <div class="faq-answer">
-            <p><strong>A. 雇用契約の整備と、生活支援体制の確認が必要です。</strong><br>
-            当社が必要要件をチェックし、基準を満たすようサポートいたします。</p>
-          </div>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">来日後はどこまでサポートしてもらえますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>空港からの送迎、住居・生活環境の整備、各種行政手続き、入社後の相談、定期面談など、安心して働き始められる環境づくりをサポートします。</p></div>
+        </details>
+        <details>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">入社後もサポートしてもらえますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>はい。外国人材への定期的なフォローに加え、企業とも連携しながら、職場や生活面での問題を早期に把握し、長期的な定着を支援します。</p></div>
+        </details>
+        <details>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">退職・離職した場合はどうなりますか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>退職・離職の状況を確認した上で、企業・外国人材双方に必要な対応を行います。契約内容に応じて、再度の人材紹介などについてもご案内します。</p></div>
         </details>
       </div>
     </div>

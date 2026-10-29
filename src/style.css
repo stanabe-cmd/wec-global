@@ -2522,3 +2522,292 @@ details[open] summary::after {
     min-width: 0;
   }
 }
+
+/* ===== 受け入れまでの流れ(海外 → フライト → 日本) ===== */
+.flow-phases {
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr;
+  align-items: stretch;
+  gap: 0;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.flow-phase {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  padding: 28px 28px 20px;
+  box-shadow: 0 10px 30px rgba(10, 30, 60, 0.08);
+  border-top: 6px solid var(--primary);
+}
+
+.flow-phase-japan {
+  border-top-color: var(--secondary);
+}
+
+.flow-phase-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 18px;
+}
+
+.flow-phase-tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: white;
+  background: var(--primary);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.flow-phase-japan .flow-phase-tag {
+  background: var(--secondary);
+}
+
+.flow-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* 番号どうしをつなぐ縦線(最後の番号の下には出さない) */
+.flow-step:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 21px;
+  top: 44px;
+  bottom: 0;
+  border-left: 2px dashed rgba(10, 60, 120, 0.25);
+}
+
+.flow-step {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.flow-step:last-child {
+  padding-bottom: 4px;
+}
+
+.flow-step-num {
+  flex: 0 0 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 0 4px white;
+}
+
+.flow-phase-japan .flow-step-num {
+  background: var(--secondary);
+}
+
+.flow-step-body {
+  flex: 1;
+  background: #f5f8fc;
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+
+.flow-step-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flow-step-icon {
+  color: var(--primary);
+  display: inline-flex;
+}
+
+.flow-phase-japan .flow-step-icon {
+  color: #c47a00;
+}
+
+.flow-step-head h3 {
+  font-size: 1.05rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.flow-step-sub {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted, #667);
+  margin-left: 4px;
+}
+
+.flow-step-desc {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #445;
+}
+
+/* フライト(海外と日本のあいだ) */
+.flow-flight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--primary);
+}
+
+.flow-flight-line {
+  flex: 1;
+  width: 0;
+  border-left: 2px dashed rgba(10, 60, 120, 0.3);
+  max-height: 120px;
+}
+
+.flow-flight-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 8px 20px rgba(10, 30, 60, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(225deg);
+}
+
+.flow-flight-label {
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .flow-phases {
+    grid-template-columns: 1fr;
+  }
+
+  .flow-phase {
+    padding: 22px 18px 14px;
+  }
+
+  .flow-step-sub {
+    display: block;
+    margin-left: 0;
+  }
+
+  .flow-flight {
+    flex-direction: row;
+    padding: 16px 0;
+  }
+
+  .flow-flight-line {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 0;
+    border-left: none;
+    border-top: 2px dashed rgba(10, 60, 120, 0.3);
+  }
+
+  .flow-flight-icon {
+    width: 52px;
+    height: 52px;
+    transform: rotate(315deg);
+  }
+}
+
+/* ===== よくあるご質問(Q/Aバッジ) ===== */
+.faq-list {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.faq-list details {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 14px;
+  padding: 0.4rem 1.25rem;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 16px rgba(10, 30, 60, 0.06);
+  border: 1px solid rgba(10, 60, 120, 0.06);
+}
+
+.faq-list summary {
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0.85rem 0;
+  color: var(--text-main);
+}
+
+.faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-list summary::after {
+  margin-left: auto;
+  color: var(--primary);
+}
+
+.faq-q,
+.faq-a {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-family: var(--font-accent);
+  color: white;
+}
+
+.faq-q {
+  background: var(--primary);
+}
+
+.faq-a {
+  background: var(--secondary);
+}
+
+.faq-q-text {
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+
+.faq-answer {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 1rem 0 1.1rem;
+}
+
+.faq-answer p {
+  margin: 4px 0 0;
+  line-height: 1.85;
+}
+
+@media (max-width: 768px) {
+  .faq-list details {
+    padding: 0.3rem 0.9rem;
+  }
+
+  .faq-q-text {
+    font-size: 0.95rem;
+  }
+
+  .faq-answer p {
+    font-size: 0.92rem;
+  }
+}
