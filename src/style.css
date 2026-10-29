@@ -3439,3 +3439,13 @@ details[open] summary::after {
     display: none;
   }
 }
+
+/* 縦長・文字ロゴの見え方をそろえる */
+img[src*="logo-slj"].logo-item {
+  transform: scale(1.25);
+}
+
+img[src*="logo-ma"].logo-item {
+  height: 30px;
+  transform: none;
+}

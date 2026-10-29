@@ -24,38 +24,62 @@ document.querySelector('#app').innerHTML = `
           <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
           <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
           <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
           <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <!-- Duplicate for seamless scroll -->
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
           <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
           <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
           <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
           <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
         </div>
         <div class="logo-track row-2">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
-          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
-          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
-          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
-          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <!-- Duplicate for seamless scroll -->
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
-          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
-          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
           <img src="/logo-client-06.png" alt="株式会社アーチ" class="logo-item">
-          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
-          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-ma.png" alt="株式会社エム・エイ" class="logo-item">
+          <img src="/logo-sgp.png" alt="SGP協同組合" class="logo-item">
+          <img src="/logo-slj.png" alt="SAKURA LANKA JAPAN" class="logo-item">
           <img src="/logo-client-01.svg" alt="AKSグランドハンドリング株式会社" class="logo-item">
+          <img src="/logo-client-02.png" alt="株式会社サンエアカーゴサービス" class="logo-item">
+          <img src="/logo-client-03.png" alt="株式会社フィルド食品" class="logo-item">
         </div>
       </div>
     </div>
@@ -496,6 +520,10 @@ document.querySelector('#app').innerHTML = `
         <details>
           <summary><span class="faq-q">Q</span><span class="faq-q-text">日本語はどのくらい話せますか？</span></summary>
           <div class="faq-answer"><span class="faq-a">A</span><p>N5～N2の人材がいます。人材によって異なりますが、来日前から日本語教育を行っています。特定技能については、必要な日本語能力などの条件を満たした人材をご紹介します。</p></div>
+        </details>
+        <details>
+          <summary><span class="faq-q">Q</span><span class="faq-q-text">外国人の国籍は一つに統一した方がよいですか？</span></summary>
+          <div class="faq-answer"><span class="faq-a">A</span><p>国籍を一つに統一する必要はありません。さまざまな国の人が一緒に働くことで、日本語を共通の言語として使う機会が増え、日本語でのコミュニケーション能力の向上にもつながります。</p></div>
         </details>
         <details>
           <summary><span class="faq-q">Q</span><span class="faq-q-text">採用までどのくらいかかりますか？</span></summary>
