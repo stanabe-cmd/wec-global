@@ -6,7 +6,7 @@ document.querySelector('#app').innerHTML = `
       <img src="/hero-main.jpg" alt="空港貨物の現場で働くスタッフ" class="hero-bg-img">
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <h1>特定技能人材の紹介から<br><span class="highlight">生活サポートまで一気通貫。</span></h1>
+        <h1><span class="hero-h1-lead">特定技能、<br class="sp-only">育成就労（技能実習生）の紹介から</span><br><span class="highlight">生活サポートまで<br class="sp-only">一気通貫。</span></h1>
         <p>外国人材500名の支援実績を、貴社の力に。<br>WECは、現場を知るからこそできる質の高い採用支援を提供します。</p>
         <div class="hero-btns">
           <a href="#contact" class="btn btn-primary">無料で相談する</a>
@@ -220,6 +220,48 @@ document.querySelector('#app').innerHTML = `
           <span class="stats-label">受け入れ企業数</span>
           <span class="stats-value">11<span>社</span></span>
         </div>
+      </div>
+    </div>
+    <div class="container strength-network">
+      <div class="net-head">
+        <p class="net-eyebrow">OVERSEAS NETWORK</p>
+        <h3>アジアを中心とした海外ネットワークで、<br class="pc-only">優秀な外国人材を日本へ</h3>
+        <p class="net-lead">現地の信頼できるパートナーと連携し、多様な人材の確保を支援しています。</p>
+      </div>
+      <div class="net-cards">
+          <div class="net-card net-card-main">
+            <div class="net-card-head">
+              <span class="net-code">LK</span>
+              <h4>スリランカ</h4>
+              <span class="net-tag">現地法人あり</span>
+            </div>
+            <p class="net-partner">SAKURA LANKA JAPAN FOREIGN EMPLOYMENT (PVT) LTD と連携</p>
+            <ul><li>安定した人材の確保</li><li>日本語教育の実施</li><li>継続的なサポート体制</li></ul>
+          </div>
+          <div class="net-card">
+            <div class="net-card-head">
+              <span class="net-code">ID</span>
+              <h4>インドネシア</h4>
+              <span class="net-tag">現地ネットワーク</span>
+            </div>
+            <p class="net-partner">送り出し機関等と連携</p>
+            <ul><li>若く意欲のある人材</li><li>幅広い業種に対応</li><li>安定した送り出し体制</li></ul>
+          </div>
+          <div class="net-card">
+            <div class="net-card-head">
+              <span class="net-code">NP</span>
+              <h4>ネパール</h4>
+              <span class="net-tag">現地ネットワーク</span>
+            </div>
+            <p class="net-partner">送り出し機関等と連携</p>
+            <ul><li>真面目で勤勉な人材</li><li>日本への関心が高い</li><li>継続的な人材の供給</li></ul>
+          </div>
+      </div>
+      <p class="net-more">その他の国 ｜ 対応国を順次拡大し、より多くの企業のニーズにお応えします。</p>
+      <div class="net-points">
+          <div class="net-point"><span class="net-point-check">✓</span><div><strong>各国との連携体制</strong><span>信頼できる現地パートナーと連携</span></div></div>
+          <div class="net-point"><span class="net-point-check">✓</span><div><strong>国ごとの採用ルート確保</strong><span>現地の特性に応じた採用ルートを構築</span></div></div>
+          <div class="net-point"><span class="net-point-check">✓</span><div><strong>複数国からのご提案が可能</strong><span>企業のニーズに合わせ最適な人材をご提案</span></div></div>
       </div>
     </div>
   </section>
