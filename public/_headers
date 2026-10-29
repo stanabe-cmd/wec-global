@@ -1,0 +1,4 @@
+# Cloudflare Pages 用のヘッダー設定
+# 本番公開前なので検索エンジンに載せない。本番ドメインで公開するときにこの行ごと削除する。
+/*
+  X-Robots-Tag: noindex, nofollow
