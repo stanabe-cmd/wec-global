@@ -3084,7 +3084,7 @@ details[open] summary::after {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
-  object-position: center 40%;
+  object-position: center 30%;
 }
 
 .net-photo figcaption {

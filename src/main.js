@@ -254,7 +254,7 @@ document.querySelector('#app').innerHTML = `
           <p class="net-lead">現地の信頼できるパートナーと連携し、多様な人材の確保を支援しています。スリランカには現地法人を構え、採用から日本語教育まで一貫して行っています。</p>
         </div>
         <figure class="net-photo">
-          <img src="/net-slj.jpg" alt="スリランカの現地法人 SAKURA LANKA JAPAN でのWECメンバーと現地スタッフ" loading="lazy">
+          <img src="/net-slj.jpg" alt="スリランカの現地法人 SAKURA LANKA JAPAN で研修を受ける人材たち" loading="lazy">
           <figcaption><img src="/flag-lk.png" alt="" width="22" height="16"> スリランカ現地法人 SAKURA LANKA JAPAN</figcaption>
         </figure>
       </div>
