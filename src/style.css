@@ -2685,7 +2685,7 @@ details[open] summary::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(225deg);
+  transform: rotate(45deg);
 }
 
 .flow-flight-label {
@@ -2724,7 +2724,7 @@ details[open] summary::after {
   .flow-flight-icon {
     width: 52px;
     height: 52px;
-    transform: rotate(315deg);
+    transform: rotate(135deg);
   }
 }
 
@@ -3448,4 +3448,42 @@ img[src*="logo-slj"].logo-item {
 img[src*="logo-ma"].logo-item {
   height: 30px;
   transform: none;
+}
+
+
+/* ネットワークの強み: 線をなくして余白で区切る */
+.net-points,
+.net-point + .net-point {
+  border: none !important;
+}
+
+.net-points {
+  gap: 24px;
+  margin-top: 0.5rem;
+}
+
+.net-point {
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.net-point::before {
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+.net-point strong {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 900px) {
+  .net-points {
+    gap: 20px;
+  }
+
+  .net-point {
+    padding: 0;
+  }
 }
