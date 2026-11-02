@@ -21,7 +21,8 @@ function seoFiles(siteUrl) {
             const urls = Object.values(pages)
                 .filter((p) => p !== 'thanks.html')
                 .map((p) => {
-                    const loc = p === 'index.html' ? `${siteUrl}/` : `${siteUrl}/${p}`;
+                    // Cloudflare Pages は .html なしのURLに転送するため、転送後のURLを載せる
+                    const loc = p === 'index.html' ? `${siteUrl}/` : `${siteUrl}/${p.replace(/\.html$/, '')}`;
                     const priority = p === 'index.html' ? '1.0' : '0.8';
                     return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <priority>${priority}</priority>\n  </url>`;
                 })
