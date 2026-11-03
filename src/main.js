@@ -315,6 +315,7 @@ document.querySelector('#app').innerHTML = `
             <p class="group-role">日本 ｜ 監理団体</p>
             <h4>SGP協同組合</h4>
             <p>2027年4月に始まる育成就労制度（現行の技能実習制度）での受け入れに対応</p>
+            <a class="group-site" href="https://sgp-global.s-tanabe-acd.workers.dev/" target="_blank" rel="noopener">SGP協同組合のサイトを見る →</a>
           </div>
         </div>
       </div>
