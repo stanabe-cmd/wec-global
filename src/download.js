@@ -63,27 +63,13 @@ if (downloadForm) {
         const formData = new FormData(downloadForm);
 
         try {
-            const response = await fetch(downloadForm.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
+            // Googleスプレッドシート(Apps Script)へ送信。応答は読み取れない(no-cors)ので、送信できたら完了画面へ進む
+            await fetch(downloadForm.action, {
+              method: 'POST',
+              mode: 'no-cors',
+              body: new URLSearchParams(formData),
             });
-
-            if (response.ok) {
-                // Redirect to thanks page
-                window.location.href = '/thanks.html?type=download';
-            } else {
-                const data = await response.json();
-                if (data.errors) {
-                    alert('エラーが発生しました: ' + data.errors.map(error => error.message).join(', '));
-                } else {
-                    alert('送信に失敗しました。時間をおいて再度お試しください。');
-                }
-                submitBtn.disabled = false;
-                submitBtn.textContent = originalBtnText;
-            }
+            window.location.href = '/thanks.html?type=download';
         } catch (error) {
             alert('ネットワークエラーが発生しました。インターネット接続を確認してください。');
             submitBtn.disabled = false;

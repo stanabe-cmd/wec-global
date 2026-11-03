@@ -557,7 +557,9 @@ document.querySelector('#app').innerHTML = `
     <div class="container text-center">
       <h2 class="section-title" data-en="CONTACT">ご相談窓口</h2>
       <p>外国人採用に関するお悩み、費用感などお気軽にご相談ください。</p>
-      <form class="contact-form" action="https://formspree.io/f/mykdaakn" method="POST">
+      <form class="contact-form" action="https://script.google.com/macros/s/AKfycbw2fvZjnIUBqMAH6jBjAEX9KSjW7T5T36BmcOwEvIOz9J9AXUhVpruyzXZwM-5GNWUW/exec" method="POST">
+        <input type="hidden" name="form_type" value="お問い合わせ">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         <!-- Replace YOUR_FORM_ID_HERE with the actual Formspree endpoint ID -->
         <input type="text" name="name" placeholder="お名前" required>
         <input type="text" name="company" placeholder="貴社名" required>
@@ -694,27 +696,13 @@ if (contactForm) {
     const formData = new FormData(contactForm);
 
     try {
-      const response = await fetch(contactForm.action, {
+      // Googleスプレッドシート(Apps Script)へ送信。応答は読み取れない(no-cors)ので、送信できたら完了画面へ進む
+      await fetch(contactForm.action, {
         method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
+        mode: 'no-cors',
+        body: new URLSearchParams(formData),
       });
-
-      if (response.ok) {
-        // Redirect to thanks page
-        window.location.href = '/thanks.html';
-      } else {
-        const data = await response.json();
-        if (data.errors) {
-          alert('エラーが発生しました: ' + data.errors.map(error => error.message).join(', '));
-        } else {
-          alert('送信に失敗しました。時間をおいて再度お試しください。');
-        }
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalBtnText;
-      }
+      window.location.href = '/thanks.html';
     } catch (error) {
       alert('ネットワークエラーが発生しました。インターネット接続を確認してください。');
       submitBtn.disabled = false;
