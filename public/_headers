@@ -2,3 +2,8 @@
 # 本番公開前なので検索エンジンに載せない。本番ドメインで公開するときにこの行ごと削除する。
 /*
   X-Robots-Tag: noindex, nofollow
+
+# STUDIO(www.wecnrt.co.jp)から読み込む追加スクリプト。更新がすぐ反映されるようキャッシュを短くする
+/studio/*
+  Cache-Control: public, max-age=60
+  Access-Control-Allow-Origin: *
