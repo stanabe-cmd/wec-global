@@ -1,4 +1,5 @@
 import './style.css'
+import { initReveal } from './reveal.js'
 
 document.querySelector('#app').innerHTML = `
   <section class="hero" id="hero">
@@ -711,3 +712,6 @@ if (contactForm) {
     }
   });
 }
+
+// スクロールで要素をふわっと表示
+initReveal();

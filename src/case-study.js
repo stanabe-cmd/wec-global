@@ -1,4 +1,5 @@
 import './style.css';
+import { initReveal } from './reveal.js';
 
 // Header scroll effect
 const header = document.querySelector('.header');
@@ -9,3 +10,5 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
+
+initReveal();
