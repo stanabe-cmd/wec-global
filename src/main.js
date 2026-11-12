@@ -267,25 +267,41 @@ document.querySelector('#app').innerHTML = `
               <span class="net-tag">現地法人あり</span>
             </div>
             <p class="net-partner">SAKURA LANKA JAPAN FOREIGN EMPLOYMENT (PVT) LTD と連携</p>
-            <ul><li>安定した人材の確保</li><li>日本語教育の実施</li><li>継続的なサポート体制</li></ul>
           </div>
           <div class="net-card">
             <div class="net-card-head">
               <img src="/flag-id.png" alt="" class="net-flag" width="40" height="30">
               <h4>インドネシア</h4>
-              <span class="net-tag">現地ネットワーク</span>
             </div>
             <p class="net-partner">送り出し機関等と連携</p>
-            <ul><li>若く意欲のある人材</li><li>幅広い業種に対応</li><li>安定した送り出し体制</li></ul>
           </div>
           <div class="net-card">
             <div class="net-card-head">
               <img src="/flag-np.png" alt="" class="net-flag" width="40" height="30">
               <h4>ネパール</h4>
-              <span class="net-tag">現地ネットワーク</span>
             </div>
             <p class="net-partner">送り出し機関等と連携</p>
-            <ul><li>真面目で勤勉な人材</li><li>日本への関心が高い</li><li>継続的な人材の供給</li></ul>
+          </div>
+          <div class="net-card">
+            <div class="net-card-head">
+              <img src="/flag-vn.png" alt="" class="net-flag" width="40" height="30">
+              <h4>ベトナム</h4>
+            </div>
+            <p class="net-partner">送り出し機関等と連携</p>
+          </div>
+          <div class="net-card">
+            <div class="net-card-head">
+              <img src="/flag-mm.png" alt="" class="net-flag" width="40" height="30">
+              <h4>ミャンマー</h4>
+            </div>
+            <p class="net-partner">送り出し機関等と連携</p>
+          </div>
+          <div class="net-card">
+            <div class="net-card-head">
+              <img src="/flag-pk.png" alt="" class="net-flag" width="40" height="30">
+              <h4>パキスタン</h4>
+            </div>
+            <p class="net-partner">送り出し機関等と連携</p>
           </div>
       </div>
       <p class="net-more">その他の国 ｜ 対応国を順次拡大し、より多くの企業のニーズにお応えします。</p>
@@ -513,7 +529,7 @@ document.querySelector('#app').innerHTML = `
       <div class="faq-list">
         <details>
           <summary><span class="faq-q">Q</span><span class="faq-q-text">どの国の人材を採用できますか？</span></summary>
-          <div class="faq-answer"><span class="faq-a">A</span><p>スリランカ、インドネシア、ネパールを中心に、海外の現地ネットワークを活用して人材をご紹介しています。<br>今後も対応国を順次拡大していきます。</p></div>
+          <div class="faq-answer"><span class="faq-a">A</span><p>スリランカ、インドネシア、ネパール、ベトナム、ミャンマー、パキスタンを中心に、海外の現地ネットワークを活用して人材をご紹介しています。<br>今後も対応国を順次拡大していきます。</p></div>
         </details>
         <details>
           <summary><span class="faq-q">Q</span><span class="faq-q-text">どのような人材を紹介できますか？</span></summary>

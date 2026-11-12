@@ -3525,3 +3525,96 @@ img[src*="logo-ma"].logo-item {
     transition: none;
   }
 }
+
+/* ===== 2026-11 コーポレートサイトに合わせた水色の枠 ===== */
+.hero {
+  background: linear-gradient(100deg, #0f5fa8 0%, #1f7fc4 45%, #4fc3ec 100%);
+}
+
+.hero-visual-card {
+  box-shadow: 0 25px 50px -12px rgba(15, 95, 168, 0.45);
+}
+
+.hero-overlay {
+  background: linear-gradient(rgba(15, 70, 130, 0.3), rgba(15, 70, 130, 0.62));
+}
+
+.header.scrolled {
+  background: linear-gradient(100deg, #0f5fa8 0%, #1f7fc4 60%, #3aa6dc 100%);
+  box-shadow: 0 4px 15px rgba(15, 95, 168, 0.25);
+}
+
+/* ===== 海外ネットワーク: 6か国を3列×2段で ===== */
+.net-cards {
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0;
+}
+
+.net-card + .net-card {
+  border-left: none;
+}
+
+.net-card,
+.net-card-main {
+  padding: 18px 28px;
+}
+
+.net-card:not(:nth-child(3n + 1)) {
+  border-left: 1px solid rgba(10, 60, 120, 0.15);
+}
+
+.net-card:nth-child(n + 4) {
+  border-top: 1px solid rgba(10, 60, 120, 0.15);
+}
+
+.net-partner {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .net-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .net-card,
+  .net-card-main {
+    padding: 16px 8px;
+  }
+
+  .net-card + .net-card,
+  .net-card:not(:nth-child(3n + 1)) {
+    border-left: none;
+    border-top: none;
+  }
+
+  .net-card:nth-child(even) {
+    border-left: 1px solid rgba(10, 60, 120, 0.15);
+  }
+
+  .net-card:nth-child(n + 3) {
+    border-top: 1px solid rgba(10, 60, 120, 0.15);
+  }
+
+  .net-card-head {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .net-card-head .net-flag {
+    width: 30px;
+    height: auto;
+  }
+
+  .net-card-head h4 {
+    font-size: 0.98rem;
+    white-space: nowrap;
+  }
+
+  .net-card-head .net-tag {
+    order: 3;
+  }
+
+  .net-partner {
+    font-size: 0.75rem;
+  }
+}
