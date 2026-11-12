@@ -3618,3 +3618,21 @@ img[src*="logo-ma"].logo-item {
     font-size: 0.75rem;
   }
 }
+
+/* ヒーロー内のボタンがスクロール時にヘッダーより前に出ないよう、
+   ヒーローを独立した重なり順のまとまりにしてヘッダーの下に固定する
+   (iPhoneのSafariなどで、ボタンだけヘッダーの上に描かれる不具合の対策) */
+.hero {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+}
+
+.hero-btns .btn {
+  position: relative;
+  z-index: 0;
+}
+
+.header {
+  isolation: isolate;
+}
