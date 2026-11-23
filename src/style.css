@@ -3663,7 +3663,6 @@ img[src*="logo-ma"].logo-item {
   opacity: 0;
   transform: translateY(22px);
   filter: blur(6px);
-  transition: opacity 1.8s ease, transform 2s cubic-bezier(0.2, 0.7, 0.2, 1), filter 1.8s ease;
 }
 
 .hero.anim .highlight {
@@ -3677,6 +3676,8 @@ img[src*="logo-ma"].logo-item {
   opacity: 1;
   transform: none;
   filter: none;
+  /* 隠すときは一瞬で、表示するときだけゆっくり(隠す途中の文字がちらっと見えないように) */
+  transition: opacity 1.8s ease, transform 2s cubic-bezier(0.2, 0.7, 0.2, 1), filter 1.8s ease;
 }
 
 .hero.anim.is-ready .hero-h1-lead { transition-delay: 0.3s; }
