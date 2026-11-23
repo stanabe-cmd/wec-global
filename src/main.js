@@ -730,4 +730,17 @@ if (contactForm) {
 }
 
 // スクロールで要素をふわっと表示
-initReveal();
+initReveal()
+
+// ヒーローの登場アニメーション(写真が読み込めたら開始。遅くても1.5秒で開始)
+;(function () {
+  const hero = document.querySelector('.hero')
+  if (!hero) return
+  hero.classList.add('anim')
+  const img = hero.querySelector('.hero-bg-img')
+  let done = false
+  const go = () => { if (done) return; done = true; requestAnimationFrame(() => hero.classList.add('is-ready')) }
+  if (!img || img.complete) go()
+  else { img.addEventListener('load', go); img.addEventListener('error', go) }
+  setTimeout(go, 1500)
+})();
