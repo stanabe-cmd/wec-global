@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML = `
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <h1><span class="hero-h1-lead">特定技能、<br class="sp-only">育成就労（技能実習生）の紹介から</span><br><span class="highlight">生活サポートまで<br class="sp-only">一気通貫。</span></h1>
-        <p>外国人材500名の支援実績を、貴社の力に。<br>WECは、現場を知るからこそできる質の高い採用支援を提供します。</p>
+        <p>外国人材561名の支援実績を、貴社の力に。<br>WECは、現場を知るからこそできる質の高い採用支援を提供します。</p>
         <div class="hero-btns">
           <a href="#contact" class="btn btn-primary">無料で相談する</a>
           <a href="/download.html" class="btn btn-secondary">資料請求(無料)</a>
@@ -235,11 +235,11 @@ document.querySelector('#app').innerHTML = `
         <img src="/strength-5.jpg" alt="電話対応をするスタッフ" class="strength-sub-img sub-img-5">
         <div class="stats-card card-1">
           <span class="stats-label">外国人材支援人数</span>
-          <span class="stats-value">500<span>名</span></span>
+          <span class="stats-value">561<span>名</span></span>
         </div>
         <div class="stats-card card-2">
           <span class="stats-label">定着実績</span>
-          <span class="stats-value">98<span>%</span></span>
+          <span class="stats-value">96<span>%</span></span>
         </div>
         <div class="stats-card card-3">
           <span class="stats-label">受け入れ企業数</span>
