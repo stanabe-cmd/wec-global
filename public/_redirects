@@ -1,0 +1,15 @@
+# 特定技能LPはコーポレートサイト(www.wecnrt.co.jp)に移しました。古いURLはすべて新しいページへ転送します
+/                          https://www.wecnrt.co.jp/global                301
+/index.html                https://www.wecnrt.co.jp/global                301
+/case-study-airport        https://www.wecnrt.co.jp/global-case-aks       301
+/case-study-airport.html   https://www.wecnrt.co.jp/global-case-aks       301
+/case-study-suncargo       https://www.wecnrt.co.jp/global-case-snk  301
+/case-study-suncargo.html  https://www.wecnrt.co.jp/global-case-snk  301
+/case-study-food           https://www.wecnrt.co.jp/global-case-fild      301
+/case-study-food.html      https://www.wecnrt.co.jp/global-case-fild      301
+/case-study-arch           https://www.wecnrt.co.jp/global-case-arch      301
+/case-study-arch.html      https://www.wecnrt.co.jp/global-case-arch      301
+/download                  https://www.wecnrt.co.jp/global#wec-download   301
+/download.html             https://www.wecnrt.co.jp/global#wec-download   301
+/thanks                    https://www.wecnrt.co.jp/global                301
+/thanks.html               https://www.wecnrt.co.jp/global                301
