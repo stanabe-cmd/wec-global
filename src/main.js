@@ -228,7 +228,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="strength-visual">
         <img src="/strength-main.jpg" alt="空港で働くWECのスタッフ" class="strength-main-img">
-        <img src="/strength-1.jpg" alt="食品工場で働く外国人スタッフ" class="strength-sub-img sub-img-1">
+        <img src="/strength-1.jpg" alt="空港で資料を確認するスタッフ" class="strength-sub-img sub-img-1">
         <img src="/strength-2.jpg" alt="航空機を誘導するスタッフ" class="strength-sub-img sub-img-2">
         <img src="/strength-3.jpg" alt="車両を運転する空港スタッフ" class="strength-sub-img sub-img-3">
         <img src="/strength-4.jpg" alt="空港リムジンバスのスタッフ" class="strength-sub-img sub-img-4">
@@ -335,6 +335,24 @@ document.querySelector('#app').innerHTML = `
             <a class="group-site" href="https://sgp-global.s-tanabe-acd.workers.dev/" target="_blank" rel="noopener">SGP協同組合のサイトを見る →</a>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="note-sec section-padding" id="note">
+    <div class="container">
+      <h2 class="section-title" data-en="NOTE">お役立ちコラム</h2>
+      <p class="note-lead">特定技能の制度や外国人材の採用・受け入れについて、noteで分かりやすく発信しています。</p>
+      <div class="note-grid" data-note-feed>
+        <a class="note-card" href="https://note.com/wec_global/n/n90be42700ebf" target="_blank" rel="noopener">
+          <div class="note-thumb"><img src="https://assets.st-note.com/production/uploads/images/334741135/rectangle_large_type_2_84d7a892f1f437e3ca45f1b4ccd94fc0.png?width=800" alt="" loading="lazy"></div>
+          <div class="note-body">
+            <time class="note-date">2026.11.20</time>
+            <h3 class="note-title">特定技能とは？企業が知っておきたい仕組み・採用条件・支援をわかりやすく解説【2026年版】</h3>
+          </div>
+        </a>
+      </div>
+      <div class="note-more">
+        <a href="https://note.com/wec_global" target="_blank" rel="noopener" class="btn note-more-btn">noteで記事をもっと見る<span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </section>

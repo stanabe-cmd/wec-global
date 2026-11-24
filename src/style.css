@@ -3693,3 +3693,133 @@ img[src*="logo-ma"].logo-item {
   .hero.anim .hero-btns,
   .hero.anim .highlight { opacity: 1; transform: none; filter: none; transition: none; }
 }
+
+/* ===== note(お役立ちコラム) ===== */
+.nav .nav-note {
+  display: inline-block;
+  padding: 3px 14px 4px;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.nav .nav-note:hover {
+  background: #fff;
+  color: #1f7fc4;
+  border-color: #fff;
+}
+
+.note-sec {
+  background: linear-gradient(180deg, #f4f9fd 0%, #eaf4fb 100%);
+}
+
+.note-lead {
+  text-align: center;
+  color: #4a5a6e;
+  margin: -12px auto 40px;
+  max-width: 640px;
+  line-height: 1.9;
+}
+
+.note-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+}
+
+.note-card {
+  flex: 0 1 calc((100% - 56px) / 3);
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 6px 24px rgba(15, 95, 168, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(15, 95, 168, 0.16);
+}
+
+.note-thumb {
+  aspect-ratio: 1.91 / 1;
+  overflow: hidden;
+  background: #dfeaf4;
+}
+
+.note-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.note-card:hover .note-thumb img {
+  transform: scale(1.04);
+}
+
+.note-body {
+  padding: 18px 20px 22px;
+}
+
+.note-date {
+  display: block;
+  font-size: 0.8rem;
+  color: #7a8899;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.note-title {
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 700;
+  color: #1a2b40;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.note-more {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.note-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #0f5fa8;
+  border: 1.5px solid #0f5fa8;
+  border-radius: 999px;
+  padding: 12px 32px;
+  font-weight: 700;
+}
+
+.note-more-btn:hover {
+  background: #0f5fa8;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .note-grid {
+    gap: 18px;
+  }
+
+  .note-card {
+    flex-basis: 100%;
+    min-width: 0;
+  }
+}

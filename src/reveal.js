@@ -22,6 +22,9 @@ const TARGETS = [
   '.group-lead',
   '.group-org',
   '.case-card',
+  '.note-lead',
+  '.note-card',
+  '.note-more',
   '.mid-cta-title',
   '.mid-cta-btns',
   '.flow-phase',
@@ -43,6 +46,7 @@ const STAGGER_PARENTS = [
   '.net-points',
   '.group-orgs',
   '.cases-grid',
+  '.note-grid',
   '.flow-phases',
   '.faq-list',
 ];
