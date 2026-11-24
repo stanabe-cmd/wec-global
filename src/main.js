@@ -346,7 +346,7 @@ document.querySelector('#app').innerHTML = `
         <a class="note-card" href="https://note.com/wec_global/n/n90be42700ebf" target="_blank" rel="noopener">
           <div class="note-thumb"><img src="https://assets.st-note.com/production/uploads/images/334741135/rectangle_large_type_2_84d7a892f1f437e3ca45f1b4ccd94fc0.png?width=800" alt="" loading="lazy"></div>
           <div class="note-body">
-            <time class="note-date">2026.11.20</time>
+            <time class="note-date">2026.11.19</time>
             <h3 class="note-title">特定技能とは？企業が知っておきたい仕組み・採用条件・支援をわかりやすく解説【2026年版】</h3>
           </div>
         </a>
