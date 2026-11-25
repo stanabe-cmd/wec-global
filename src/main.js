@@ -222,7 +222,7 @@ document.querySelector('#app').innerHTML = `
     <div class="container strength-content">
       <div class="strength-text">
         <h2 class="section-title" data-en="STRENGTHS" style="text-align: left;">WECだからこその強み</h2>
-        <p>私たちは単なる「紹介会社」ではありません。<br>自社グループの現場でも多くの外国人材が働いており、採用から受け入れ・定着までを自ら運営しています。</p>
+        <p>私たちは単なる「紹介会社」ではありません。<br>1988年に千葉県成田市で創業して以来、成田空港をはじめとする空港・ケータリング・ホテルなどの現場を運営してきました。自社グループの現場でも多くの外国人材が働いており、採用から受け入れ・定着までを自ら手がけています。</p>
         <p>・現場で起こるリアルな課題と解決策を熟知<br>・定着率を高めるためのノウハウが凝縮<br>・実体験に基づいた、嘘のないサポート体制</p>
         <p class="stats-note">※数値は2026年10月末日現在。外国人材支援人数は特定技能・技能実習を含みます。定着実績は社内定義に基づきます。</p>
       </div>
@@ -344,7 +344,7 @@ document.querySelector('#app').innerHTML = `
       <p class="note-lead">特定技能の制度や外国人材の採用・受け入れについて、noteで分かりやすく発信しています。</p>
       <div class="note-grid" data-note-feed>
         <a class="note-card" href="https://note.com/wec_global/n/n90be42700ebf" target="_blank" rel="noopener">
-          <div class="note-thumb"><img src="https://assets.st-note.com/production/uploads/images/334741135/rectangle_large_type_2_84d7a892f1f437e3ca45f1b4ccd94fc0.png?width=800" alt="" loading="lazy"></div>
+          <div class="note-thumb"><img src="https://assets.st-note.com/production/uploads/images/334741135/rectangle_large_type_2_84d7a892f1f437e3ca45f1b4ccd94fc0.png?width=800" alt="特定技能とは？企業が知っておきたい仕組み・採用条件・支援をわかりやすく解説【2026年版】" loading="lazy"></div>
           <div class="note-body">
             <time class="note-date">2026.11.19</time>
             <h3 class="note-title">特定技能とは？企業が知っておきたい仕組み・採用条件・支援をわかりやすく解説【2026年版】</h3>
